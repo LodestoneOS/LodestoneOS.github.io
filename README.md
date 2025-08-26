@@ -4,8 +4,7 @@
 Pre-packaged with tools like Ollama, PyTorch, and Tensorflow, LodestoneOS is designed for developers looking to deploy local artificial intelligence applications.
 
 ## Getting Started
-Head over to https://github.com/LodestoneOS/LodestoneOS/releases to download the latest version.
-
+The latest release is available at <a href="https://github.com/LodestoneOS/LodestoneOS/releases">https://github.com/LodestoneOS/LodestoneOS/releases</a>
 ## Features
 LoadstoneOS comes pre-configured with the following packages:
 
