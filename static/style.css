@@ -1,0 +1,140 @@
+        body {
+            background-color: #0C151E;
+            color: #E0E0E0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        h1, h2, h3 {
+            color: #FFFFFF;
+            font-weight: 600;
+        }
+
+        h1 { font-size: 2.5em; }
+        h2 { font-size: 2em; text-align: center; margin-bottom: 40px; }
+        h3 { font-size: 1.2em; }
+
+        a {
+            color: #3498DB;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* --- Layout --- */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* --- Header --- */
+        .site-header {
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            gap: 20px; /* Space between logo and text */
+        }
+
+        .logo {
+            width: 80px;  /* Resized from 1024px for header use */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .site-title {
+            margin: 0;
+        }
+
+        /* --- Hero Section --- */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            border-bottom: 1px solid #2c3e50;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 20px auto 40px auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #3498DB;
+            color: #FFFFFF;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background-color: #2980B9;
+            text-decoration: none;
+        }
+
+        .cta-button.secondary {
+            background-color: transparent;
+            border: 2px solid #3498DB;
+        }
+
+        .cta-button.secondary:hover {
+            background-color: #3498DB;
+        }
+
+        /* --- Features Section --- */
+        .features-section {
+            padding: 60px 0;
+        }
+
+        .features-grid {
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+            flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+        }
+
+        .feature-item {
+            background-color: #1a2734;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            flex-basis: 250px; /* Each item will try to be 250px wide */
+            flex-grow: 1;
+        }
+
+        .feature-item h3 {
+            margin-top: 15px;
+        }
+        
+        .feature-icon {
+            font-size: 2.5em;
+        }
+
+
+        /* --- Footer --- */
+        .site-footer {
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 40px;
+            border-top: 1px solid #2c3e50;
+            font-size: 0.9em;
+            color: #95a5a6;
+        }
+
+        /* --- Responsive Design --- */
+        @media (max-width: 768px) {
+            h1 { font-size: 2em; }
+            .hero { padding: 60px 20px; }
+            .cta-buttons { flex-direction: column; }
+        }
